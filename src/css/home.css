@@ -1,0 +1,16 @@
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home1{
+    padding: 50px;
+}
+
+.container-title{
+padding: 20px;
+}
+
+.container-title .home-title{
+    margin-bottom: 10px;
+}
