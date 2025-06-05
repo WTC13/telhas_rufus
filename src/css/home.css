@@ -1,9 +1,26 @@
-#container{
+#home{
+    background: linear-gradient(to right, #dd7702 20%, #d18f58 80%);
+    height: 100vh;
+}
+
+.container-home{
     display: flex;
-    flex-direction: column;
 }
 
 .container-home1{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.container-home2{
+    color: #000000;
+}
+
+.container-home2 img{
+    height: 600px;
+    width: 600px;
     padding: 50px;
 }
 
@@ -13,4 +30,32 @@ padding: 20px;
 
 .container-title .home-title{
     margin-bottom: 10px;
+}
+
+.default-buttons{
+    background-color: #fda423;
+    padding: 10px;
+    border-radius: 10px;
+    border: #000000 solid 2px;
+}
+
+.home-buttons2{
+    padding: 30px;
+    text-decoration: none;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-buttons2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bg2);
+    padding: 10px;
+    background-color: var(--bg1);
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
 }
