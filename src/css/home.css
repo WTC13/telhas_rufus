@@ -1,17 +1,24 @@
 #home{
     background: linear-gradient(to right, #dd7702 20%, #d18f58 80%);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .container-home{
     display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
 }
 
 .container-home1{
     padding: 50px;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 70%;
 }
 
 .container-home2{
@@ -25,36 +32,32 @@
 }
 
 .container-title{
-padding: 20px;
+padding-bottom: 20px;
 }
 
-.container-title .home-title{
+.home-title{
     margin-bottom: 10px;
 }
 
-.default-buttons{
-    background-color: #fda423;
-    padding: 10px;
-    border-radius: 10px;
-    border: #000000 solid 2px;
+.home-title span{
+    color: var(--bg2);
 }
 
 .home-buttons2{
-    padding: 30px;
+    padding-top: 10px;
     text-decoration: none;
-    width: 35%;
+    width: 70%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
 }
 
 .home-buttons2 a{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--bg2);
-    padding: 10px;
-    background-color: var(--bg1);
+    margin-top: 30px;
+    margin-right: 30px;
     border-radius: 5px;
     width: 40px;
     height: 40px;
