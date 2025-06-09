@@ -35,6 +35,17 @@ header{
     font-weight: 700;
 }
 
+/* .link-nav a:hover{
+    color: var(--bg3);
+    box-shadow: 0 0 4px 4px rgb(221,119,2);
+    background-color: var(--bg3);
+} */
+
+.nav-title:hover{
+    color: var(--bg3);
+    background-color: yellowgreen;
+}
+
 .buttons-nav a{
     padding: 8px;
     background-color: var(--bg3);
