@@ -2,9 +2,12 @@
 
 @import url(home.css);
 @import url(header.css);
+@import url(services.css);
+@import url(testimony.css);
+@import url(footer.css);
 
 :root{
-    --bg1: #000000;
+    --bg1: #1d1d1d;
     --bg2: #ececec;
     --bg3: #dd7702;
 }
@@ -16,6 +19,8 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+
+
 
 .default-buttons{
     background-color: #fda423;
