@@ -1,0 +1,147 @@
+#contacts{
+    min-height: 100vh;
+    background-color: var(--bg2);
+}
+
+#contacts h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 36px;
+}
+
+.container-contacts{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-contacts1{
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.container-contacts1 h2{
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
+
+.container-contacts1 p{
+    font-size: 16px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.icons-contacts{
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.icons-contacts i{
+    background-color: var(--bg3);
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--bg1);
+    color: var(--bg1);
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icons-contacts i:hover{
+    background-color: var(--bg1);
+    color: var(--bg2);
+    box-shadow: 0 0 8px 8px rgba(0,0,0,0.8);
+}
+
+.icons-contacts span{
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.container-contacts2{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30px;
+}
+
+.forms{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.forms input[type="text"],
+.forms input[type="number"],
+.forms input[type="email"],
+.forms textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid var(--bg3);
+    border-radius: 10px;
+    box-sizing: border-box;
+    max-width: 600px;
+}
+
+.forms button{
+    background-color: var(--bg3);
+    margin-top: 20px;
+    border: 2px solid var(--bg1);
+    width: 160px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.forms button:hover{
+    background-color: var(--bg1);
+    box-shadow: 0 0 8px 8px rgba(0,0,0,0.8);
+    color: var(--bg2);
+}
+
+.input-forms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+.input-name,
+.input-number{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 49%;
+    margin-bottom: 5px;
+}
+
+.input-email,
+.forms textarea{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 10px;
+}

@@ -21,17 +21,17 @@ header{
     height: 50px;
     width: 50px;
     margin-right: 20px;
+    border-radius: 25px;
 }
 
 .link-nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 30%;
+    width: 40%;
 }
 
 .link-nav a{
-    color: #ececec;
     font-weight: 700;
 }
 
@@ -41,14 +41,18 @@ header{
     background-color: var(--bg3);
 } */
 
+.nav-title{
+    color: var(--bg2);
+    transition: all 0.3s ease-in-out;
+}
+
 .nav-title:hover{
     color: var(--bg3);
-    background-color: yellowgreen;
 }
 
 .buttons-nav a{
     padding: 8px;
-    background-color: var(--bg3);
+    background-color: var(--bg4);
     border: var(--bg2) solid 0.8px;
     border-radius: 8px;
     color: var(--bg1);

@@ -4,12 +4,14 @@
 @import url(header.css);
 @import url(services.css);
 @import url(testimony.css);
+@import url(contacts.css);
 @import url(footer.css);
 
 :root{
     --bg1: #1d1d1d;
     --bg2: #ececec;
     --bg3: #dd7702;
+    --bg4: #fda423;
 }
 
 *{
@@ -23,10 +25,10 @@
 
 
 .default-buttons{
-    background-color: #fda423;
+    background-color: var(--bg4);
     padding: 10px;
     border-radius: 10px;
-    border: #000000 solid 2px;
+    border: var(--bg1) solid 2px;
     color: var(--bg1);
     font-size: 15px;
     font-weight: 700;
