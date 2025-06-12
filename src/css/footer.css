@@ -4,5 +4,22 @@ footer {
   padding: 40px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   color: var(--bg2);
+}
+
+footer a i{
+  color: var(--bg5);
+  background-color: var(--bg4);
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid var(--bg2);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;;
+}
+
+footer a i:hover{
+  background-color: var(--bg2);
+  color: var(--bg1);
+  box-shadow: 0 0 8px 8px rgba(255,255,255, 0.8);
 }
