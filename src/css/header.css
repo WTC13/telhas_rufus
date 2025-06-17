@@ -50,6 +50,10 @@ header{
     color: var(--bg3);
 }
 
+/* .buttons-nav{
+    width: 20%;
+} */
+
 .buttons-nav a{
     padding: 8px;
     background-color: var(--bg4);
@@ -67,6 +71,45 @@ header{
     box-shadow: 0px 0px 8px 8px rgba(255,255,255,0.8);
 }
 
+.list-nav{
+    max-width: 10px;
+}
+
+#mobile_btn,
+#mobile_menu,
+#mobile_link_nav a{
+    color: var(--bg2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    display: none;
+}
+
+#mobile_btn a{
+    color: var(--bg2);
+    transition: all 03.s ease-in-out;
+}
+
+#mobile_btn a:hover{
+    color: var(--bg4);
+}
+
+#mobile_link_nav a:hover{
+    color: var(--bg4);
+}
+
 @media screen and (max-width: 1000px){
     
+    .logo-nav img,
+    .link-nav,
+    .buttons-nav
+    {
+        display: none;
+    }
+
+    #mobile_btn,
+    #mobile_menu,
+    #mobile_link_nav a{
+         display: block;
+    }
+
 }
