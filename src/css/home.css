@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 90px;
 }
 
 .container-home{
@@ -62,4 +61,48 @@ padding-bottom: 20px;
     border-radius: 5px;
     width: 40px;
     height: 40px;
+}
+
+@media screen and (max-width: 884px){
+
+#home{
+    min-height: 400px;
+    }
+
+    .container-home{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-buttons2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .home-buttons2 a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .default-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+   .container-home2{
+        display: none;
+   } 
 }
