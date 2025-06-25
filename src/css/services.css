@@ -87,3 +87,20 @@
     color: var(--bg1);
     box-shadow: 0 0 6px 6px rgba(255,255,255,0.8);
 }
+
+@media screen and (max-width: 884px){
+    .item{
+        width: 310px;
+    }
+
+    .title-service{
+        font-size: 24px;
+    }
+
+    .descriptions{
+        font-size: 14px;
+        text-align: justify;
+        margin-bottom: 15px;
+        font-weight: 400;
+    }
+}

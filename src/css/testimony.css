@@ -95,3 +95,40 @@
 .costumer1 span i:hover{
     color: var(--bg1);
 }
+
+@media screen and (max-width: 884px){
+    .container-testimony{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-testimony1{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .container-testimony1 img{
+        width: 795px;
+        height: 700px;
+    }
+
+    .container-testimony2{
+        width: 90%;
+    }
+
+    .container-testimony2 h1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+
+    .customer-testimony{
+        width: 100%;
+    }
+}

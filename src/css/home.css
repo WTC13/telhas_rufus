@@ -77,6 +77,14 @@ padding-bottom: 20px;
         text-align: center;
     }
 
+    .container-home1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
+
     .home-buttons{
         display: flex;
         align-items: center;
@@ -90,16 +98,36 @@ padding-bottom: 20px;
         justify-content: center;
     }
 
-    /* .home-buttons2 a{
+    .a1 a{
+        margin: 10px 0px 10px 0px;
+        padding: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-    } */
+        background-color: var(--bg3);
+        border: var(--bg5) solid 1.5px;
+        color: var(--bg5);
+    }
 
-    .default-buttons{
+    .a2 a{
+        margin: 10px 15px 10px 15px;
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: var(--bg3);
+        border: var(--bg5) solid 1.5px;
+        color: var(--bg5);
+    }
+
+    .a3 a{
+        margin: 10px 0px 10px 0px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--bg3);
+        border: var(--bg5) solid 1.5px;
+        color: var(--bg5);
     }
 
    .container-home2{

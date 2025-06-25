@@ -188,4 +188,12 @@ header{
     #mobile_menu.active{
         height: 200px;
     }
+    
+    .container-home1{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+    }
 }

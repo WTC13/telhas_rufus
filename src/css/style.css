@@ -48,4 +48,48 @@ body{
     background-color: var(--bg1);
     color: var(--bg2);
     box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.3);
+} 
+
+.a1 a{
+    /* margin: 10px 0px 10px 0px; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg3);
+    border: var(--bg5) solid 1.5px;
+    color: var(--bg5);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.a2 a{
+    /* margin: 10px 15px 10px 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg3);
+    border: var(--bg5) solid 1.5px;
+    color: var(--bg5);
+    transition: all 0.3s ease-in-out;
+}
+
+.a3 a{
+    /* margin: 10px 0px 10px 0px; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg3);
+    border: var(--bg5) solid 1.5px;
+    color: var(--bg5);
+    transition: all 0.3s ease-in-out;
+}
+
+.a1 a:hover,
+.a2 a:hover,
+.a3 a:hover{
+    color: var(--bg2);
+    background-color: var(--bg5);
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.3);
 }
