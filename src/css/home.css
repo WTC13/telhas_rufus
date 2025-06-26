@@ -15,7 +15,7 @@
 }
 
 .container-home1{
-    padding: 50px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -23,12 +23,14 @@
 
 .container-home2{
     color: #000000;
+    margin-right: 50px;
 }
 
 .container-home2 img{
     height: 600px;
     width: 600px;
-    padding: 50px;
+    border-radius: 10px;
+    border: var(--bg1) solid 2px;
 }
 
 .container-title{

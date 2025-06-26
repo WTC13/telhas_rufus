@@ -27,6 +27,8 @@
 .container-testimony1 img{
     height: 450px;
     width: 450px;
+    border-radius: 10px;
+    border: var(--bg1) solid 2px;
 }
 
 .container-testimony2{
@@ -169,6 +171,45 @@
     .container-testimony1 img{
         width: 400px;
         height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 390px){
+
+    .container-testimony1 img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .customer-testimony{
+        width: 350px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .customer-testimony img{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .costumer{
+        width: 330px;
+    }
+
+    .costumer p{
+        text-align: justify;
+        width: 100%;
+    }
+
+    .costumer1{
+        width: 330px;
+        margin-bottom: 10px;
+    }
+
+    .costumer1 h4{
+        width: 60%;
     }
 
 }

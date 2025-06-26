@@ -26,6 +26,7 @@ header{
     width: 50px;
     margin-right: 20px;
     border-radius: 25px;
+    border: var(--bg4) solid 2px;
 }
 
 .link-nav{
