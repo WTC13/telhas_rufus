@@ -132,3 +132,43 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 834px){
+    .container-testimony1 img{
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .container-testimony2 h1{
+        font-size: 48px;
+    }
+
+    .customer-testimony{
+        width: 400px;
+        height: 240px;
+    }
+
+    .costumer p{
+        width: 95%;
+    }
+
+    .costumer1{
+        width: 90%;
+    }
+
+    .costumer1 h4{
+        width: 40%;
+    }
+
+    .costumer1 span{
+        margin: 0;
+    }
+
+    .container-testimony1 img{
+        width: 400px;
+        height: 400px;
+    }
+
+}

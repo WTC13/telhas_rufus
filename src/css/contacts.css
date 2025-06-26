@@ -180,3 +180,47 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 428px){
+    #contacts{
+        height: 1000px;
+    }
+
+    .container-contacts{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        width: 1000px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-contacts1{
+        height: 450px;
+        width: 45%;
+    }
+
+    .container-contacts1 p{
+        width: 90%;
+    }
+    
+    .icons-contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        width: 50%;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .icons-contacts a{
+        margin-bottom: 15px;
+    }
+
+    .container-contacts2{
+        height: 500px;
+    }
+
+
+}
